@@ -3,12 +3,8 @@ theme = 'hugo-theme-reimu'
 defaultContentLanguage = 'zh-CN'
 enableEmoji = true
 
-[
-languages
-]
-[
-languages.zh-CN
-]
+[languages]
+[languages.zh-CN]
 languageCode = 'zh-cn'
 languageName = '简体中文'
 weight = 1
@@ -16,9 +12,7 @@ hasCJKLanguage = true
 title = '我的博客'
 author = '李嘉图'
 
-[
-languages.en
-]
+[languages.en]
 languageCode = 'en'
 languageName = 'English'
 weight = 2
@@ -26,9 +20,7 @@ hasCJKLanguage = true
 title = 'xxxxxxxx'
 author = 'xxxxxxxx'
 
-[
-languages.ja
-]
+[languages.ja]
 languageCode = 'ja'
 languageName = '日本語'
 weight = 3
@@ -36,9 +28,7 @@ hasCJKLanguage = true
 title = 'xxx'
 author = 'xxx'
 
-[
-markup.highlight
-]
+[markup.highlight]
 guessSyntax = true
 noClasses = false
 
